@@ -61,6 +61,12 @@
     gap: 20px;
     align-items: center;
     margin-top: 20px;
+    transition: 0.5s;
+}
+.services-readmore:hover{
+    border-color: #ff00ff;
+    gap: 30px;
+    transition: 0.5s;
 }
 .services-format:hover{
     border: 1.5px solid #FF00ff;

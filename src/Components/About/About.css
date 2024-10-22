@@ -40,6 +40,7 @@
   gap: 20px;
   font-size: 18px;
   font-weight: 300;
+  color: #888;
 }
 .about-skills {
   display: flex;
