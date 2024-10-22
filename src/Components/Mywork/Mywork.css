@@ -1,0 +1,44 @@
+.mywork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 0;
+}
+.mywork-title {
+  position: relative;
+}
+.mywork-title h1 {
+  padding: 0px 30px;
+  font-size: 60px;
+  font-weight: 500;
+}
+.mywork-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 150px;
+}
+.mywork-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.mywork-container img {
+  box-sizing: border-box;
+  width: 350px;
+  transition: 0.3;
+  cursor: pointer;
+}
+.mywork-showmore {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 55px;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

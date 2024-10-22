@@ -11,11 +11,11 @@ const Hero = () => {
         <img className="profile-pattern" src={theme_pattern} alt="" />
       </div>
       <h1>
-        <span>I'am Bright Gobka,</span> Front-end Developer base in Ghana.
+        <span>I'm Bright Gobka,</span> Front-end Developer base in Ghana.
       </h1>
       <p>
         I am a front-end develope | engineer from Tamale, Ghana with 4 years of
-        experience in multiple companies like Alnyaba Tech and Namibra
+        experience in multiple companies like Alnyaba Tech and Namibra.
       </p>
       <div className="hero-action">
         <div className="hero-connect">Connect With Me</div>
